@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000000;
+    color: white;
+    height: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.navbar .logo{
+    display: flex;
+}
+.navbar nav{
+    display: flex;
+   
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.navbar nav ul li {
+    list-style: none;
+     margin: 0 30px;
+}
+.navbar nav ul li  a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.navbar nav ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+    color: blanchedalmond;
+}
+.navbar .logo i{
+    font-size: 2.2rem;
+    color:#ffff00;
+}
+.food{
+    background-image: url("images/food.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+.food .name{
+    text-align: center;
+    color: #a52a2a;
+   
+}
+.name{
+   
+    font-size: 3.5rem;
+}
+#heading1{
+    color: gold;
+}
+#heading2{
+    color: #ffffff;
+}
+#order{
+    color:black;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    font-style:italic;
+}
+button{
+    margin: 50px;
+    padding: 20px;
+    width: 500px;
+    background-color: orangered;
+    border-radius:10px;
+    color: white;
+    
+    
+}
+ #text{
+position:relative;
+animation-name: myAnimation;
+animation:myAnimation 2s ease-in-out infinite alternate;
+
+}
+@keyframes myAnimation {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+    
+}
+.people .choice{
+    text-align: center;
+    margin: 20px;
+}
+.people .choice h2{
+    color: brown;
+    font-weight: bolder;
+    font-size: 2.0rem;
+}
+.people .choice #over{
+    line-height:20px;
+}
+.people .locations{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    margin:0 520px;
+    font-size: large;
+   
+}
+.people .locations .restaurants{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000000;
+ 
+}
+.people .locations .cities{
+       width: 200px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+.people .locations .order{
+       width: 200px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+.waiting .wait h3{
+   color: brown;
+   font-size: 2.5rem;
+}
+.waiting .wait p{
+    line-height: 20px;
+}
+.waiting{
+    display: flex;
+    justify-content:space-around;
+    margin:100px;
+    
+}
+
+.features .div1{
+    width:100px;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.features .div2{
+    width:100px;
+    height:100px;;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+}
+.features .div3{
+    width:100px;
+    height:100px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+}
+footer{
+    background-color:black;
+    height: 100vh;
+   
+
+}
+._footPanel{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+
+}
+footer h2{
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.footPanel1 h4{
+    color: white;
+}
+.footPanel1 .p{
+    color: white;
+
+}
+
+._footPanel p{
+    line-height: 20px;
+}
+.biriyani{
+    display: flex;
+    justify-content: space-around;
+    margin: 48px;
+}
+.biriyani1{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.biriyani2{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.biriyani3{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.h2{
+    text-align: center;
+}
+.h3{
+text-align: center;
+}
+.fries{
+    display: flex;
+    justify-content: space-around;
+    margin: 48px;
+}
+.fries1{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.fries2{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.fries3{
+   width:250px;
+    height:250px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+.header{
+    background:none;
+}
+.navbar1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar2 ul li{
+    list-style: none;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar1 ul li a:hover{
+    border-bottom: 2px solid black;
+}
+._locations{
+ margin: 20px;
+}
